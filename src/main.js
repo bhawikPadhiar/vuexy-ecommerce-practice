@@ -43,6 +43,9 @@ Vue.prototype.$http = axios
 // Theme Configurations
 import '../themeConfig.js'
 
+// Instant search
+import InstantSearch from 'vue-instantsearch'
+Vue.use(InstantSearch)
 
 // Globally Registered Components
 import './globalComponents.js'
